@@ -1,0 +1,24 @@
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  div#toggle {
+    border: 1px solid black;
+    width: 40px;
+    padding: 2px;
+    border-radius: 25px;
+    background-color: grey;
+    margin: 250px auto;
+    position: relative;
+    height: 18px;
+  }
+  .dark-mode {
+      background-color: #333;
+      color: #fff;
+  }
+  #toggleBtn {
+    position: absolute;
+    transition: 0.5s ease-in-out;
+  }
+  
